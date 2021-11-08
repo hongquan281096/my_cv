@@ -1,0 +1,42 @@
+body {
+}
+h1 {
+  color: teal;
+}
+.ui-body {
+  /* background-color: red !important; */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+.pd-20 {
+  padding: 20px;
+}
+.flex-display {
+  display: flex;
+}
+.block-display {
+  display: block;
+}
+a {
+  text-decoration: none !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+}
+.btn-secondary {
+  background-color: #1078ff !important;
+  border-color: #1078ff !important;
+}
+button.close {
+  visibility: hidden;
+}
+.btn-logout {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.center-button {
+  display: flex;
+  align-items: center;
+}
+.cover-letter {
+  background-color: #eee;
+}

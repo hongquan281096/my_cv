@@ -1,0 +1,42 @@
+.h-100vh{
+    height: 100vh;
+}
+.b-g-left{
+    background: #EAEFF8;
+}
+.h-50{
+    height: 50%;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-center{
+    justify-content: center;
+    align-items: center;
+}
+.btn-ads{
+    width: 335px;
+    padding: 11px;
+}
+.flex-column{
+    flex-direction: column;
+}
+.container-w-ads{
+    width: 440px;
+    padding-top: 50px;
+}
+.container-w-ads-m{
+    width: 100%;
+    padding-top: 30px;
+}
+.m-t-30{
+    margin-top: 30px;
+}
+.m-t-15{
+    margin-top: 15px;
+}
+.pd-ads{
+    padding: 0 45px;
+}
