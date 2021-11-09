@@ -1,6 +1,6 @@
 const ConfigLink = {
   local: "https://localhost:44308",
-  pro: "https://localhost:44308",
+  pro: "https://quanquinapi.somee.com",
   // local: "https://localhost:44308",
   // pro: "http://quanquinapi.somee.com",
 };
