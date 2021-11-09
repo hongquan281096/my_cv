@@ -4,7 +4,6 @@ const BaseService = {
   async get(endpoint) {
     const response = await fetch(endpoint, {
       method: "GET",
-      mode: "cors",
     })
       .then((result) => result.json())
       .then((data) => {
@@ -20,7 +19,6 @@ const BaseService = {
     try {
       const response = await fetch(endpoint, {
         method: "POST",
-        mode: "cors",
         body: JSON.stringify(bodyData),
         headers: {
           Accept: "application/json",
@@ -46,7 +44,6 @@ const BaseService = {
       const response = await fetch(endpoint, {
         method: "PUT",
         body: JSON.stringify(bodyData),
-        mode: "cors",
         headers: {
           Accept: "application/json",
           "Content-Type": "application/json",
