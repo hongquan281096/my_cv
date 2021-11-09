@@ -4,6 +4,7 @@ const BaseService = {
   async get(endpoint) {
     const response = await fetch(endpoint, {
       method: "GET",
+      mode: "cors",
     })
       .then((result) => result.json())
       .then((data) => {
