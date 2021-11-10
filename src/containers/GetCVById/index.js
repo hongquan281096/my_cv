@@ -96,7 +96,7 @@ export const GetCVBy = React.forwardRef((props, ref) => {
             <div className="col-12 col-md-6">
               {/* ------------------thông tin liên hệ--------------------------------- */}
               <div className="pd-top-bottom">
-                <h6 className="title">THÔNG TIN LIÊN HỆ</h6>
+                <h6 className="title">CONTACT INFO</h6>
                 <div className="hr-underLine"></div>
                 <div>
                   <span>
