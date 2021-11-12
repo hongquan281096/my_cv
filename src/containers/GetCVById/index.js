@@ -184,6 +184,15 @@ export const GetCVBy = React.forwardRef((props, ref) => {
                 </div>
               )}
               {/* ------------------SỞ THÍCH--------------------------------- */}
+              {/* --------------------------TRINH DO HOC VAN--------------------------------------------- */}
+              {titleEducation && titleEducation.length > 0 && (
+                <div className="pd-top-bottom">
+                  <h6 className="title">{titleEducation}</h6>
+                  <div className="hr-underLine"></div>
+                  {Parser().parse(education)}
+                </div>
+              )}
+              {/* -------------------------TRINH DO HOC VAN--------------------------------------------- */}
             </div>
             <div className="col-12 col-md-6">
               {/* --------------------------KINH NGHIÊM LAM VIỆC--------------------------------------------- */}
@@ -204,15 +213,6 @@ export const GetCVBy = React.forwardRef((props, ref) => {
                 </div>
               )}
               {/* --------------------------DU AN THAM GIA--------------------------------------------- */}
-              {/* --------------------------TRINH DO HOC VAN--------------------------------------------- */}
-              {titleEducation && titleEducation.length > 0 && (
-                <div className="pd-top-bottom">
-                  <h6 className="title">{titleEducation}</h6>
-                  <div className="hr-underLine"></div>
-                  {Parser().parse(education)}
-                </div>
-              )}
-              {/* -------------------------TRINH DO HOC VAN--------------------------------------------- */}
               {/* --------------------------HAOT ĐỘNG--------------------------------------------- */}
               {titleActivities && titleActivities.length > 0 && (
                 <div className="pd-top-bottom">
