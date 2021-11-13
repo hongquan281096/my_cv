@@ -57,7 +57,7 @@ const Login = (props) => {
               <br></br>
             </>
           )}
-          <NavLink to={"/Register"}>Register Now?</NavLink>
+          {/* <NavLink to={"/Register"}>Register Now?</NavLink> */}
         </ModalBody>
         <ModalFooter>
           <Button color="primary" onClick={() => handleLogin()}>

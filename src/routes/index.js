@@ -21,11 +21,13 @@ export default ({ sessionLogin }) => (
       props={sessionLogin}
     />
     <UnAuthencationRoute path="/Login" component={Login} props={sessionLogin} />
-    <UnAuthencationRoute
+
+    {/* <UnAuthencationRoute
       path="/Register"
       component={Register}
       props={sessionLogin}
-    />
+    /> */}
+
     <UnAuthencationRoute
       path="/GetCVById/:Id"
       component={GetCVById}
