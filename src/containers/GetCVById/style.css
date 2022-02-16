@@ -53,3 +53,6 @@
   display: flex;
   justify-content: space-evenly;
 }
+.text-alight{
+  text-align: center;
+}

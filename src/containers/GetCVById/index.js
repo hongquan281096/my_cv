@@ -87,7 +87,7 @@ export const GetCVBy = React.forwardRef((props, ref) => {
 
             <div className="col-12 col-md-6 flex-display">
               <div className="main-margin">
-                <label className="block-display fullNameSize">{name}</label>
+                <label className="block-display fullNameSize text-alight">{name}</label>
                 <label className="block-display position">{position}</label>
               </div>
             </div>
