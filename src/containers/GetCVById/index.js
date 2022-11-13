@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 import { Button, NavItem, FormGroup, Form, Label, Input } from "reactstrap";
 import { Container, Row, Col, Badge, Progress } from "reactstrap";
@@ -28,13 +28,15 @@ import moment from "moment";
 import { useReactToPrint } from "react-to-print";
 var coverLetterId = 0;
 export const GetCVBy = React.forwardRef((props, ref) => {
+  const [data, setData] = useState([]);
   let { Id } = useParams();
-
-  const { data, error } = useSWR(
-    `${ConfigLink.pro}/api/MyCv/GetMyCvById?id=${Id}`,
-    { refreshInterval: 1500 }
-  );
-
+  useEffect(async () => {
+    const result = await BaseService.get(
+      `${ConfigLink.pro}/api/MyCv/GetMyCvById?id=${Id}`
+    );
+    setData(result);
+    console.log("result:", JSON.stringify(result));
+  }, []);
   if (data) {
     const {
       birthDate,
@@ -87,7 +89,9 @@ export const GetCVBy = React.forwardRef((props, ref) => {
 
             <div className="col-12 col-md-6 flex-display">
               <div className="main-margin">
-                <label className="block-display fullNameSize text-alight">{name}</label>
+                <label className="block-display fullNameSize text-alight">
+                  {name}
+                </label>
                 <label className="block-display position">{position}</label>
               </div>
             </div>
