@@ -3,7 +3,7 @@ import Create from "../containers/Create";
 import Update from "../containers/Update";
 import Detail from "../containers/Detail";
 import { GetCVById } from "../containers/GetCVById";
-import { HSHQCV } from "../containers/StaticCv";
+import { HSHQCV } from "../containers/HSHQ";
 import GetListCV from "../containers/ListCV";
 import React from "react";
 import Login from "../containers/Login";
