@@ -1,0 +1,58 @@
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.main-margin {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .main-margin {
+    padding-top: 10px;
+  }
+}
+.fullNameSize {
+  font-size: 35px;
+  font-weight: bold;
+  color: #e50505;
+}
+.position {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  color: #e50505;
+}
+.hr-underLine {
+  margin: 1rem 0;
+  height: 2px;
+  background-color: black;
+}
+.style-Badge {
+  border-radius: 50% !important;
+  background-color: #e50505;
+  padding: 4px !important;
+}
+.style-icon {
+  color: #fff;
+}
+.pl-8 {
+  padding-left: 8px;
+}
+.progress .progress-bar {
+  background-color: #e50505;
+}
+.pd-top-bottom {
+  padding-bottom: 10px;
+}
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+.text-alight{
+  text-align: center;
+}

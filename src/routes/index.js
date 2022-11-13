@@ -3,6 +3,7 @@ import Create from "../containers/Create";
 import Update from "../containers/Update";
 import Detail from "../containers/Detail";
 import { GetCVById } from "../containers/GetCVById";
+import { HSHQCV } from "../containers/StaticCv";
 import GetListCV from "../containers/ListCV";
 import React from "react";
 import Login from "../containers/Login";
@@ -31,6 +32,12 @@ export default ({ sessionLogin }) => (
     <UnAuthencationRoute
       path="/GetCVById/:Id"
       component={GetCVById}
+      props={sessionLogin}
+    />
+
+    <UnAuthencationRoute
+      path="/HSHQ"
+      component={HSHQCV}
       props={sessionLogin}
     />
 
