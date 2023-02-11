@@ -245,7 +245,7 @@ const HSHQCV = () => {
             <FormGroup className="row">
               <div className="col-12 footer">
                 <Button onClick={handlePrint}>Print CV</Button>
-                <Button onClick={handleRedirect}>Cover Letter</Button>
+                {/* <Button onClick={handleRedirect}>Cover Letter</Button> */}
               </div>
             </FormGroup>
           </Form>
