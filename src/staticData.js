@@ -23,7 +23,7 @@ export const StaticData = {
   titleCertifications: "WORKING HISTORY",
   titleSkill: "SKILL SUMMARY",
   skill:
-    "Front-End (ReactJS,  NextJS, Redux, Mobx, Html, Css, Javascript)|90;Back-End (C#, .Net Core, JFROG, RabbitMQ)|90;DBMS (PostgreSql, Oracle, MSSQL Server, MongoDB)|90; Mobile (React Native)|50; Azure Devops |40",
+    "Back-End (C#, .Net Core, .Net Framework)|90;Front-End (ReactJS,  NextJS, Redux, Mobx, Html, Css, Javascript)|90;DBMS (PostgreSql, Oracle, MSSQL Server, MongoDB)|90; Mobile (React Native)|50; Azure Devops |30",
   titleFavourite: "FAVOURITE",
   favourite:
     '<ul style="margin-bottom:0">\n<li> Football </li>\n<li> Music</li>\n<li> Guitar</li>\n</ul>',
