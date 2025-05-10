@@ -16,7 +16,7 @@ export const StaticData = {
   experience:
     '\n<div style="\n   display: flex;\n   justify-content: space-between;\n   font-weight: bold;\n   "><span>NASHTECH\t </span>\n   <span>\t\tFeb 2022 - Now\n   </span>\n</div>\n<span> \n<strong> Description</strong>: Global software, offshore development and IT company. \n<span style="display: block"><strong>Role</strong>: Senior Software Engineer </span>\n</span>\n\n<div style="\n   display: flex;\n   justify-content: space-between;\n   font-weight: bold;\n   "><span>HARAVAN</span>\n   <span>\t\tJune 2020 - Jan 2022\n   </span>\n</div>\n<span> \n<strong> Description</strong>: HARAVAN is the technology company in the Seedcom group, providing technology solutions for its members such as The Coffee House, Juno.\n<span style="display: block"><strong>Role</strong>: Software Engineer </span>\n</span>\n\n<div style="\n   display: flex;\n   justify-content: space-between;\n   font-weight: bold;\n   "><span>TINH VAN CONSULTING </span>\n   <span>\t\tMay 2018 - May 2020 \n   </span>\n</div>\n<span> \n<strong> Description</strong>: HiStaff is a professional HRM software solution for medium to large enterprises operating in Vietnam. \n<span style="display: block"><strong>Role</strong>: Developer</span>\n</span>',
   imagePath:
-    "http://res.cloudinary.com/dvhlnlvky/image/upload/v1639541647/unoxlz5e3lixokvsqrl9.jpg",
+    "https://res.cloudinary.com/dvhlnlvky/image/upload/fl_preserve_transparency/v1746854618/quan_ucfj8i.jpg",
   gender: "Nam",
   titleEducation: "EDUCATION",
   titleObjective: "PERSONAL STATEMENT",
